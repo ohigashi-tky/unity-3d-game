@@ -21,4 +21,9 @@ public class GameManeger : MonoBehaviour
         Debug.Log("START");
         SceneManager.LoadScene("Main");
     }
+
+    public void TitleButton () {
+        Debug.Log("TITLE");
+        SceneManager.LoadScene("Title");
+    }
 }
