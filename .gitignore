@@ -73,5 +73,9 @@ crashlytics-build.properties
 
 /Assets/Anime Tokyo/*
 /Assets/Font/*
+/Assets/Blink/*
+/Assets/Blink.meta
+/Assets/RPG Monster DUO PBR Polyart
+/Assets/RPG Monster DUO PBR Polyart.meta
 
 iOS_Build
