@@ -27,9 +27,11 @@ public class PlayerController : MonoBehaviour
         goalText.text = "死亡";
 
         // プレイヤーの操作を無効にする
+        var playerAnimator =  GameObject.FindWithTag("Player").GetComponent<Animator>();
         var playerController = GameObject.FindWithTag("Player").GetComponent<ThirdPersonController>();
-        if (playerController != null)
+        if (playerAnimator != null && playerController != null)
         {
+            playerAnimator.enabled = false;
             playerController.enabled = false;
         }
 
